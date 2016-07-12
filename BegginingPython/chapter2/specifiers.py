@@ -1,0 +1,5 @@
+print("The lucky number is: %d" % 12)
+print("%f is the ratio of circumfernce to radius in all circles" %3.145719)
+print("A really large number is %E" % 8.324E10)
+print("The number %f can be trimmed to %.02f" % (27.8737440444,27.8737440444))
+print("%f" % (4032 - 32.5))

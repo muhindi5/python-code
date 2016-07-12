@@ -1,0 +1,14 @@
+books = [
+"Fiction",["A Sudden Country","Karen Fisher",2016],
+"Science Fiction",["Theory of the Tao","Bill Hayden",2004]
+]
+
+def loop_print(a_list):
+    for item in a_list:
+        if isinstance(item,list):
+            loop_print(item)
+        else:
+            print(item)
+            
+            
+loop_print(books)
