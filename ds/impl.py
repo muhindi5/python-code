@@ -9,4 +9,4 @@ print(s.is_empty())
 s.push(5)
 s.push('man')
 print(s.peek())
-
+print('Items in stack: %d' % (s.size()))

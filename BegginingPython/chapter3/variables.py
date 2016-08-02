@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Testing out variables
 first_str = "This is the first"
 second_str = "This is the second str"
@@ -22,6 +23,7 @@ print("Number of Items in Turple: %d" % len(data))
 item_a = ("Book1","A.Bois",23)
 item_b = (item_a,"Published: 2016","Penguin")
 print(item_b)
+print('Author-->',item_b[0][1]) #access item in list item_1 inside list item_b
 
 #access specific item of turple inside other turple
 print("The Author of the book is: %s " % item_b[0][1])

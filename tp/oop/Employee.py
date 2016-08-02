@@ -30,7 +30,7 @@ emp2.displayEmployee()
 #print number of employees
 emp1.displayCount()
 
-#using object functions 
+#using object methods 
 print(getattr(emp1,'salary')) #get attribute 'salary'
 setattr(emp1,'name','Popi') #set attribute name to 'Popi' 
 emp1.displayEmployee()
@@ -38,9 +38,9 @@ print('emp1 has attribute \'name\': %s' % hasattr(emp1,'age')) #check if object 
 
 #built-in class methods
 print(emp1.__dict__) #display dictionary containing class's namespace
-print(emp1.__doc__) #class documentation string, none if undefined
-#print(emp1.__name__) #class name:
-print(emp1.__module__) #module inwhich the class is defined
+print('class documentation: ',emp1.__doc__) #class documentation string, none if undefined
+print('Class Name:',Employee.__name__) #class name:
+print(emp1.__module__) #module in iwhich the class is defined
 
 #destroying objects (grabage collection)
 #Python's gc is automatically triggered when an object's reference count reaches 0

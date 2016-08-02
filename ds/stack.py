@@ -13,9 +13,9 @@ class Stack:
 
     '''remove item from stack'''
     def pop(self):
-        return self.items.pop()
+        return self.items.pop() #remove top item in stack
 
-    '''check if item is in list'''
+    '''return the top item in list'''
     def peek(self):
         return self.items[len(self.items) - 1]
 
